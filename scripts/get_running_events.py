@@ -48,7 +48,7 @@ while True:
     page += 1
     time.sleep(0.3)
 
-with open('all_events.json', 'w') as f:
+with open('../data/running_events.json', 'w') as f:
     json.dump(all_events, f)
 
 print(f"Done. Total saved: {len(all_events)}")
