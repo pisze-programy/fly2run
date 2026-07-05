@@ -1,13 +1,30 @@
+from datetime import datetime, timedelta
+import random
+import time
 import json
 import os
 import pandas as pd
 import requests
-import datetime
+from fake_useragent import UserAgent
 from geopy.distance import geodesic
+from tqdm import tqdm
 
-ORIGIN = 'POZ'
+# Global Config
+ORIGIN = 'KTW' # POZ WAW/WMI WRO GDN KRK KTW
 MAX_DISTANCE_KM = 50
 PRICE_CACHE = {}
+ua = UserAgent()
+
+def get_session_headers():
+    return {
+        'User-Agent': ua.random,
+        'Accept': 'application/json,text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.5',
+        'Referer': 'https://www.ryanair.com/',
+        'DNT': '1',
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1',
+    }
 
 
 def load_data():
@@ -38,34 +55,38 @@ def get_fares(origin, dest, month):
 
     url = f"https://www.ryanair.com/api/farfnd/v4/oneWayFares/{origin}/{dest}/cheapestPerDay"
     params = {'outboundMonthOfDate': month, 'currency': 'PLN'}
-    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0'}
 
     try:
-        resp = requests.get(url, params=params, headers=headers, timeout=5).json()
-        fares = {f['day']: f for f in resp['outbound']['fares'] if f.get('price')}
+        resp = requests.get(url, params=params, headers=get_session_headers(), timeout=5)
+        resp.raise_for_status()
+        data = resp.json()
+
+        fares = {f['day']: f for f in data['outbound']['fares'] if f.get('price')}
         PRICE_CACHE[cache_key] = fares
         return fares
-    except:
+    except Exception as e:
+        print(f"Error fetching fares for {origin}-{dest}: {e}")
         return {}
 
 
 def find_best_trip(event_date_str, origin, dest):
     try:
-        event_date = datetime.datetime.strptime(event_date_str[:10], '%Y-%m-%d')
+        event_date = datetime.strptime(event_date_str.split('T')[0], '%Y-%m-%d')
     except:
         return None
 
     month = event_date.strftime('%Y-%m-01')
     out_fares = get_fares(origin, dest, month)
     ret_fares = get_fares(dest, origin, month)
+    time.sleep(random.uniform(0.2, 0.8))
 
     best_total = float('inf')
     best_option = None
 
     for i in range(0, 3):
-        out_d = (event_date - datetime.timedelta(days=i)).strftime('%Y-%m-%d')
+        out_d = (event_date - timedelta(days=i)).strftime('%Y-%m-%d')
         for j in range(1, 4):
-            ret_d = (event_date + datetime.timedelta(days=j)).strftime('%Y-%m-%d')
+            ret_d = (event_date + timedelta(days=j)).strftime('%Y-%m-%d')
 
             if out_d in out_fares and ret_d in ret_fares:
                 price_out = out_fares[out_d]
@@ -98,7 +119,7 @@ def process_trips(events, connections):
     print(f"Total events: {len(events)}")
     processed_count = 0
 
-    for event in events:
+    for event in tqdm(events, desc="Processing events"):
         coords = event.get('startPoint')
         if not coords or len(coords) < 2:
             continue
