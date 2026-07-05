@@ -18,6 +18,19 @@ def load_data():
     return events, connections
 
 
+def calculate_popularity_score(event):
+    score = 0
+
+    score += (event.get('reviewsCount', 0) * 5)
+    score += int(event.get('rating', 0) * 10)
+    score += (event.get('resultsCount', 0) * 0.5)
+
+    if event.get('promoted'):
+        score += 20
+
+    return score
+
+
 def get_fares(origin, dest, month):
     cache_key = f"{origin}_{dest}_{month}"
     if cache_key in PRICE_CACHE:
@@ -106,6 +119,7 @@ def process_trips(events, connections):
                 if trip:
                     flight_price = trip['price']
                     total_trip_price = flight_price # TODO: add hotel prices
+                    popularity_score = calculate_popularity_score(event)
 
                     trips.append({
                         'event_id': event.get('title'),
@@ -115,6 +129,8 @@ def process_trips(events, connections):
                         'event_date': event_date,
                         'event_location': f"{event.get('city')}:{event.get('country')}",
                         'airport': dest_code,
+
+                        "popularity_score": popularity_score,
 
                         'departure_date': trip['out_time'],
                         'return_date': trip['ret_time'],
@@ -133,7 +149,14 @@ def process_trips(events, connections):
 def main():
     events, connections = load_data()
     df = process_trips(events, connections)
-    df = df.sort_values(by='total_trip_price')
+
+    popular_events = df[df['popularity_score'] > 20].sort_values(
+        by=['total_trip_price'], ascending=True
+    )
+    rest_events = df[df['popularity_score'] <= 20].sort_values(
+        by='total_trip_price', ascending=True
+    )
+    df = pd.concat([popular_events, rest_events])
 
     output_dir = '../results'
     os.makedirs(output_dir, exist_ok=True)
