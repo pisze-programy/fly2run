@@ -1,0 +1,162 @@
+event_id,event_distance,event_price,event_price_currency,event_date,event_location,airport,popularity_score,departure_date,return_date,flight_price,total_trip_price
+Zemen Run,14km,20.0,eur,2026-08-22T21:00:00,Zemen:Bulgaria,SOF,75.0,2026-08-22T11:50:00,2026-08-25T16:05:00,138.0,138.0
+EcoTrail Brussels,Ultra marathon,12.0,eur,2026-09-04T22:00:00,Uccle:Belgium,CRL,75.0,2026-09-03T12:00:00,2026-09-05T17:10:00,149.93,149.93
+Generali Night Run Budapest,Half marathon,,,2026-08-28T23:00:00,Budapest:Hungary,BUD,55.0,2026-08-26T06:05:00,2026-08-31T05:45:00,176.0,176.0
+"Monza Half Marathon & 30km, 10km, 5km run",30km,18.0,eur,2026-10-03T22:00:00,Lombardia:Italy,MXP,45.0,2026-10-03T17:40:00,2026-10-05T05:45:00,180.0,180.0
+Powerade Milano Half Marathon & 10 km,Half marathon,33.0,eur,2026-11-21T23:00:00,Milano:Italy,MXP,175.0,2026-11-21T14:15:00,2026-11-22T08:35:00,180.0,180.0
+Ørestad Half Marathon - Copenhagen World Championship Warm-Up with One Mile - 5K - 10K,Half marathon,47.0,eur,2026-09-05T22:00:00,Copenhagen:Denmark,CPH,75.0,2026-09-04T23:50:00,2026-09-07T23:30:00,186.52,186.52
+Helsingborg Marathon & HOKA Helsingborg Half Marathon,Marathon,,,2026-09-04T22:00:00,Helsingborg:Sweden,CPH,80.0,2026-09-04T23:50:00,2026-09-07T23:30:00,186.52,186.52
+Orta 10in10 - 10 Marathons/Halfs/10k in 10 days,Ultra marathon,15.0,eur,2026-08-13T22:00:00,Buccione:Italy,MXP,75.0,2026-08-13T07:50:00,2026-08-14T16:20:00,189.86,189.86
+Lake Maggiore Marathon,Marathon,25.0,eur,2026-11-07T23:00:00,Arona:Italy,MXP,100.0,2026-11-05T07:05:00,2026-11-08T08:35:00,191.14,191.14
+adidas Stockholm Half Marathon - SOLD OUT,Half marathon,,,2026-08-28T22:00:00,Stockholm:Sweden,ARN,230.0,2026-08-27T22:45:00,2026-08-29T23:10:00,193.2,193.2
+"Vitality London 10,000 (dup)",10 km,,,2026-09-27T00:00:00,Londres:United Kingdom,STN,55.0,2026-09-26T20:00:00,2026-09-30T08:20:00,196.5,196.5
+SPAR Budapest Marathon,Marathon,26.0,eur,2026-10-10T22:00:00,Budapest:Hungary,BUD,190.0,2026-10-09T07:25:00,2026-10-13T10:50:00,201.99,201.99
+Powerade Milano Half Marathon & 10 km,Half marathon,33.0,eur,2026-11-21T23:00:00,Milano:Italy,BGY,175.0,2026-11-21T19:15:00,2026-11-22T09:45:00,204.0,204.0
+TCS Lidingöloppet,30km,22.55,eur,2026-09-26T22:00:00,Lidingö:Sweden,ARN,85.0,2026-09-24T22:45:00,2026-09-27T15:05:00,213.72,213.72
+Stramilano Run Generation,Half marathon,,,2027-03-20T23:00:00,Milano:Italy,MXP,60.0,2027-03-19T19:40:00,2027-03-22T22:40:00,214.0,214.0
+Wizz Air Milano Marathon,Marathon,89.0,eur,2027-04-03T22:00:00,Milan:Italy,MXP,65.0,2027-04-03T17:25:00,2027-04-04T15:15:00,214.0,214.0
+ČSOB Bratislava Marathon,Marathon,,,2027-04-10T23:00:00,Bratislava:Slovakia,BTS,90.0,2027-04-10T06:35:00,2027-04-13T08:20:00,214.0,214.0
+MBNA Chester Marathon,Marathon,,,2026-10-10T23:00:00,Chester:United Kingdom,LPL,55.0,2026-10-09T10:00:00,2026-10-11T15:35:00,220.76000000000002,220.76000000000002
+Uppsala Marathon & Half Marathon,Marathon,56.39,eur,2026-10-16T22:00:00,Uppsala:Sweden,ARN,80.0,2026-10-15T22:45:00,2026-10-17T23:10:00,224.29000000000002,224.29000000000002
+"Monza Half Marathon & 30km, 10km, 5km run",30km,18.0,eur,2026-10-03T22:00:00,Lombardia:Italy,BGY,45.0,2026-10-03T15:05:00,2026-10-04T09:10:00,226.0,226.0
+London Landmarks Half-Marathon,Half marathon,,,2027-04-04T00:00:00,Greater London:United Kingdom,STN,60.0,2027-04-04T07:00:00,2027-04-06T07:30:00,248.0,248.0
+TCS London Marathon,Marathon,,,2027-04-24T00:00:00,London:United Kingdom,STN,160.0,2027-04-22T12:00:00,2027-04-25T08:50:00,248.0,248.0
+Wizz Air Milano Marathon,Marathon,89.0,eur,2027-04-03T22:00:00,Milan:Italy,BGY,65.0,2027-04-03T08:25:00,2027-04-04T09:40:00,248.0,248.0
+ASML Marathon Eindhoven,Marathon,,,2026-10-10T23:00:00,Eindhoven:Netherlands,EIN,70.0,2026-10-08T10:55:00,2026-10-12T19:25:00,256.0,256.0
+Run Leicester Half Marathon & 10K,Half marathon,,,2026-10-11T00:00:00,Leicester:United Kingdom,BHX,55.0,2026-10-10T15:35:00,2026-10-13T08:55:00,257.4,257.4
+Fiumicino Half Marathon,Half marathon,,,2026-11-28T23:00:00,Fiumicino:Italy,CIA,55.0,2026-11-28T11:30:00,2026-11-30T10:10:00,276.43,276.43
+International Thessaloniki Night Half Marathon,Half marathon,15.0,eur,2026-10-16T21:00:00,Thessaloniki:Greece,SKG,130.0,2026-10-15T06:40:00,2026-10-17T10:00:00,305.72,305.72
+Irish Life Dublin Marathon,Marathon,,,2026-10-25T00:00:00,Dublin:Ireland,DUB,70.0,2026-10-23T17:45:00,2026-10-28T17:35:00,328.0,328.0
+Eurosport Attard 5K,5 km,20.0,eur,2026-09-19T22:00:00,Attard:Malta,MLA,75.0,2026-09-19T22:05:00,2026-09-22T09:15:00,342.78999999999996,342.78999999999996
+La Pota-Roja Cervelló,42.20km,23.0,eur,2026-11-07T23:00:00,Cervelló:Spain,BCN,65.0,2026-11-05T17:10:00,2026-11-08T10:00:00,349.57,349.57
+Stramilano Run Generation,Half marathon,,,2027-03-20T23:00:00,Milano:Italy,BGY,60.0,2027-03-20T08:20:00,2027-03-23T11:05:00,353.0,353.0
+Challenge Barcelona Triatló,Ultra marathon,20.0,eur,2026-10-24T22:00:00,Barcelona:Spain,BCN,75.0,2026-10-22T16:45:00,2026-10-25T10:00:00,363.11,363.11
+GetPRO Bath Half Marathon,Half marathon,,,2027-03-14T00:00:00,Bath:United Kingdom,BRS,55.0,2027-03-13T06:00:00,2027-03-15T17:15:00,374.0,374.0
+Wizz Air Venicemarathon,Marathon,35.0,eur,2026-10-24T22:00:00,Venice:Italy,TSF,135.0,2026-10-22T08:15:00,2026-10-25T13:25:00,376.15999999999997,376.15999999999997
+TUI Palma Marathon,Marathon,,,2026-10-17T23:00:00,Palma:Spain,PMI,55.0,2026-10-17T21:25:00,2026-10-19T20:55:00,381.49,381.49
+Generali Tranquilidade Half Marathon of Discoveries,21.10km,5.0,eur,2026-11-29T00:00:00,Lisboa:Portugal,LIS,75.0,2026-11-28T15:25:00,2026-11-30T17:05:00,392.0,392.0
+Höstrusket,Marathon,53.68,eur,2026-11-06T23:00:00,Stockholm:Sweden,ARN,65.0,2026-11-06T12:55:00,2026-11-09T16:15:00,396.0,396.0
+Midnattsloppet Stockholm,10 km,,,2026-08-14T22:00:00,Stockholm:Sweden,ARN,70.0,2026-08-13T22:45:00,2026-08-15T23:10:00,408.19,408.19
+6 lakes – 6 sjöar,Marathon,9.02,eur,2026-08-14T22:00:00,Uppsala:Sweden,ARN,395.0,2026-08-13T22:45:00,2026-08-15T23:10:00,408.19,408.19
+Stellantis&You Port de Palma Triathlon Mallorca,Ultra marathon,36.0,eur,2026-09-19T22:00:00,Palma:Spain,PMI,75.0,2026-09-19T21:25:00,2026-09-20T06:15:00,413.1,413.1
+Malta Attard 10K,10 km,20.0,eur,2027-01-09T23:00:00,Attard:Malta,MLA,75.0,2027-01-09T17:45:00,2027-01-10T09:55:00,415.97,415.97
+NAPLES MARATHON - Neapolis Marathon,Marathon,20.0,eur,2026-10-17T22:00:00,Napoli:Italy,NAP,105.0,2026-10-17T07:00:00,2026-10-20T08:50:00,417.22,417.22
+Caixabank Palma City Half Marathon & XV 10K Port de Palma,Half marathon,16.0,eur,2027-03-20T23:00:00,Palma:Spain,PMI,300.0,2027-03-18T06:25:00,2027-03-23T09:50:00,444.43,444.43
+Dublin Half Marathon,Half marathon,,,2026-09-20T00:00:00,Dublin:Ireland,DUB,55.0,2026-09-19T18:35:00,2026-09-21T05:45:00,490.23,490.23
+Palermo Marathon and Half Marathon,Marathon,30.0,eur,2026-11-14T22:00:00,Palermo:Italy,PMO,130.0,2026-11-14T06:00:00,2026-11-15T21:25:00,492.07,492.07
+Sierra Blanca Estates Marbella Half Marathon,Half marathon,15.0,eur,2026-09-26T22:00:00,Marbella:Spain,AGP,90.0,2026-09-25T18:45:00,2026-09-29T13:05:00,512.11,512.11
+Mitja Marató Internacional de Terrassa - Barcelona,Half marathon,26.0,eur,2027-02-27T23:00:00,Terrassa:Spain,BCN,80.0,2027-02-25T17:10:00,2027-02-28T17:35:00,532.0,532.0
+Marathon Skampa - Elbasan ,20km,10.0,eur,2026-10-03T22:00:00,Elbasan:Albania,TIA,55.0,2026-10-03T12:25:00,2026-10-04T15:55:00,571.35,571.35
+Valencia Half Marathon,Half marathon,,,2026-10-24T23:00:00,Valencia:Spain,VLC,65.0,2026-10-22T17:35:00,2026-10-27T11:20:00,596.0,596.0
+The Capitals - Gravel Bikepacking,Ultra marathon,320.0,eur,2026-07-23T22:00:00,Barcelona:Spain,BCN,75.0,2026-07-22T06:15:00,2026-07-24T10:00:00,604.24,604.24
+Malta Marathon,Marathon,,,2027-02-27T23:00:00,Mdina:Malta,MLA,215.0,2027-02-27T06:35:00,2027-02-28T09:55:00,667.0,667.0
+Scottish Half Marathon,Half marathon,,,2026-08-16T00:00:00,Musselburgh:United Kingdom,EDI,55.0,2026-08-16T11:25:00,2026-08-17T19:05:00,674.8,674.8
+EuroSpin Roma-Ostia Half Marathon,Half marathon,,,2027-02-27T23:00:00,Roma:Italy,CIA,60.0,2027-02-27T11:30:00,2027-02-28T21:45:00,684.0,684.0
+We Run Rome,10 km,15.0,eur,2026-12-30T23:00:00,Roma:Italy,CIA,95.0,2026-12-28T07:25:00,2026-12-31T20:55:00,697.22,697.22
+Run the Ridge,30km,10.0,eur,2026-08-14T23:00:00,Laragh:Ireland,DUB,75.0,2026-08-13T11:05:00,2026-08-17T05:45:00,778.85,778.85
+Glendalough Lap of the Gap Marathon,Marathon,62.0,eur,2027-05-21T23:00:00,Glendalough:Ireland,DUB,235.0,2027-05-21T13:20:00,2027-05-23T15:30:00,787.0,787.0
+Athens Marathon - The Authentic,Marathon,350.0,eur,2026-11-07T21:00:00,Athens:Greece,ATH,300.0,2026-11-07T12:35:00,2026-11-09T21:55:00,816.0,816.0
+Palermo International Half Marathon & 10K & 5K,Half marathon,25.0,eur,2026-10-17T22:00:00,Palermo:Italy,PMO,85.0,2026-10-15T15:50:00,2026-10-20T17:40:00,833.97,833.97
+Ultra Marathon of the Atlantic,Marathon,25.0,eur,2026-07-18T23:00:00,Melides:Portugal,LIS,75.0,2026-07-18T06:15:00,2026-07-21T18:00:00,1227.99,1227.99
+Midnattsloppet Malmö,10 km,58.55,eur,2026-08-28T22:00:00,Malmö:Sweden,MMX,20.0,2026-08-27T20:15:00,2026-08-31T20:45:00,138.0,138.0
+Midnattsloppet Malmö,10 km,58.55,eur,2026-08-28T22:00:00,Malmö:Sweden,CPH,20.0,2026-08-28T23:50:00,2026-08-31T23:30:00,158.0,158.0
+Landskrona halvmarathon,Half marathon,17.14,eur,2026-08-21T22:00:00,Landskrona:Sweden,CPH,20.0,2026-08-21T23:50:00,2026-08-24T23:30:00,166.23000000000002,166.23000000000002
+Tjejmilen,10 km,71.72,eur,2026-09-04T22:00:00,Stockholm:Sweden,ARN,20.0,2026-09-03T22:45:00,2026-09-07T20:45:00,169.02,169.02
+Quadrortathon - 4 Marathons/Halfs/10Ks in 4 Days or single races,172km,15.0,eur,2026-08-03T22:00:00,Gozzano:Italy,MXP,20.0,2026-08-01T17:40:00,2026-08-05T06:40:00,170.87,170.87
+Trail Lago Maggiore,Ultra marathon,20.0,eur,2026-09-25T22:00:00,Verbania:Italy,MXP,20.0,2026-09-23T09:15:00,2026-09-28T05:45:00,173.32,173.32
+Ultra Trail del Lago d'Orta,Ultra marathon,,,2026-10-16T23:00:00,Omegna:Italy,MXP,0.0,2026-10-15T07:50:00,2026-10-19T05:45:00,180.0,180.0
+Como Lake Half Marathon,Half marathon,,,2026-12-05T23:00:00,Como:Italy,MXP,0.0,2026-12-05T14:15:00,2026-12-06T08:35:00,180.0,180.0
+Hässelbyloppet,10 km,17.59,eur,2026-10-10T22:00:00,Stockholm:Sweden,ARN,20.0,2026-10-10T21:05:00,2026-10-11T15:05:00,180.0,180.0
+Tjurruset,10 km,56.39,eur,2026-10-09T22:00:00,Stockholm:Sweden,ARN,20.0,2026-10-08T22:45:00,2026-10-10T23:10:00,180.0,180.0
+Manchester Half Marathon,Half marathon,,,2026-10-04T00:00:00,Manchester:United Kingdom,LPL,0.0,2026-10-02T10:00:00,2026-10-07T08:30:00,187.88,187.88
+Malmö Marathon,Marathon,,,2026-10-02T22:00:00,Malmö:Sweden,CPH,0.0,2026-10-02T23:50:00,2026-10-05T23:30:00,204.0,204.0
+Chelmsford Marathon & Half Marathon,Marathon,44.03,eur,2026-10-10T23:00:00,Chelmsford:United Kingdom,STN,20.0,2026-10-10T20:00:00,2026-10-11T08:20:00,204.0,204.0
+ATW Welwyn Half Marathon,Half marathon,38.24,eur,2026-10-03T23:00:00,Stanborough:United Kingdom,STN,20.0,2026-10-02T17:30:00,2026-10-04T08:20:00,204.0,204.0
+Stevenage Half Marathon,Half marathon,,,2026-10-18T00:00:00,Ridlins End:United Kingdom,STN,0.0,2026-10-18T06:30:00,2026-10-19T12:50:00,204.0,204.0
+"Love Luton RunFest - 5K, 10K",Half marathon,23.17,eur,2026-10-10T23:00:00,"St George's Square, Luton, Bedfordshire:United Kingdom",STN,20.0,2026-10-10T20:00:00,2026-10-11T08:20:00,204.0,204.0
+The PB Project,5 km,15.0,eur,2026-10-03T22:00:00,Leuven:Belgium,CRL,20.0,2026-10-03T14:15:00,2026-10-04T14:30:00,209.39,209.39
+Semi-Marathon de Mons,Half marathon,,,2026-10-03T22:00:00,Mons:Belgium,CRL,0.0,2026-10-03T14:15:00,2026-10-04T14:30:00,209.39,209.39
+Mezza Due Laghi,Half marathon,30.0,eur,2027-04-10T22:00:00,Gravellona Toce:Italy,MXP,20.0,2027-04-09T13:25:00,2027-04-11T15:15:00,214.0,214.0
+Nuuksio Night Trail,Half marathon,,,2026-09-24T22:00:00,Espoo:Finland,HEL,0.0,2026-09-23T20:40:00,2026-09-25T22:15:00,222.79000000000002,222.79000000000002
+Prosecco Running Festival,Ultra marathon,,,2026-12-04T23:00:00,Vidor:Italy,TSF,0.0,2026-12-04T13:55:00,2026-12-06T13:25:00,260.0,260.0
+City vs Wharf Run Challenge,10 km,28.97,eur,2026-09-16T23:00:00,London:United Kingdom,STN,20.0,2026-09-14T20:55:00,2026-09-17T08:20:00,261.5,261.5
+ATW Stevenage Spring Half Marathon & 10k,10 km,31.28,eur,2027-03-28T23:00:00,Stevenage:United Kingdom,STN,20.0,2027-03-28T07:00:00,2027-03-30T07:30:00,273.0,273.0
+Brussels Ekiden,Marathon,,,2026-10-16T23:00:00,Brussels:Belgium,CRL,0.0,2026-10-15T12:00:00,2026-10-17T17:10:00,278.51,278.51
+The Ultra Loop - October,Marathon,39.39,eur,2026-10-17T23:00:00,Frodsham:United Kingdom,LPL,20.0,2026-10-16T10:00:00,2026-10-18T15:35:00,278.9,278.9
+Ursvik Ultra,Ultra marathon,,,2027-03-19T23:00:00,Ursviks:Sweden,ARN,0.0,2027-03-18T13:00:00,2027-03-22T16:15:00,281.0,281.0
+Malmö Marathon,Marathon,,,2026-10-02T22:00:00,Malmö:Sweden,MMX,0.0,2026-10-01T20:15:00,2026-10-05T20:45:00,282.0,282.0
+Midnight Run Helsinki,10 km,59.0,eur,2026-09-11T21:00:00,Helsinki:Finland,HEL,20.0,2026-09-09T20:40:00,2026-09-13T10:10:00,285.53999999999996,285.53999999999996
+Charleville International Half-marathon,Half marathon,,,2026-09-13T00:00:00,Charleville:Ireland,SNN,0.0,2026-09-11T05:55:00,2026-09-14T08:50:00,285.84000000000003,285.84000000000003
+The Drop - London,24.14km,46.35,eur,2027-03-06T00:00:00,London:United Kingdom,STN,20.0,2027-03-06T14:50:00,2027-03-07T14:10:00,298.0,298.0
+ATW Hatfield 5,8.05km,34.76,eur,2026-11-29T00:00:00,Welwyn Hatfield:United Kingdom,STN,20.0,2026-11-29T12:15:00,2026-11-30T11:25:00,298.0,298.0
+Colchester Half Marathon,Half marathon,,,2027-03-14T00:00:00,Colchester:United Kingdom,STN,0.0,2027-03-14T12:15:00,2027-03-16T09:25:00,298.0,298.0
+North Chilterns 50K,Ultra marathon,81.0,eur,2026-11-20T23:00:00,Luton:United Kingdom,STN,20.0,2026-11-20T18:30:00,2026-11-21T06:30:00,298.0,298.0
+Bexley 10K,10 km,20.28,eur,2027-02-07T00:00:00,"Danson Park, 51 Danson Road, Bexleyheath DA6 8HL:United Kingdom",STN,0.0,2027-02-07T16:50:00,2027-02-10T06:55:00,298.0,298.0
+"Liverpool 1.5k, 5k,10k & Half Marathon MoRun",Half marathon,13.9,eur,2026-11-21T00:00:00,Liverpool:United Kingdom,MAN,20.0,2026-11-20T19:20:00,2026-11-22T10:15:00,299.0,299.0
+Central Lancashire New Year Half Marathon,Half marathon,,,2027-01-10T00:00:00,Nr Preston:United Kingdom,STN,0.0,2027-01-09T14:50:00,2027-01-11T11:25:00,299.0,299.0
+Marathon Kasterlee,Marathon,,,2026-11-14T23:00:00,Kasterlee:Belgium,EIN,0.0,2026-11-13T17:05:00,2026-11-15T15:15:00,306.0,306.0
+ATW St Albans Easter 10K,10 km,35.92,eur,2027-03-26T00:00:00,St Albans:United Kingdom,STN,20.0,2027-03-25T21:55:00,2027-03-29T12:50:00,313.0,313.0
+Rugby Half Marathon,Half marathon,,,2026-10-25T00:00:00,Rugby:United Kingdom,BHX,0.0,2026-10-23T18:00:00,2026-10-26T06:30:00,319.0,319.0
+Kallithea Night Run,10 km,12.0,eur,2026-10-16T21:00:00,Kallithea:Greece,ATH,20.0,2026-10-16T18:30:00,2026-10-19T10:00:00,325.65999999999997,325.65999999999997
+Trail Grigne Sud,42km,40.0,eur,2026-09-25T22:00:00,Mandello del Lario:Italy,BGY,20.0,2026-09-23T19:00:00,2026-09-27T09:10:00,325.76,325.76
+ATW Love Welwyn Garden City 10K,10 km,40.55,eur,2027-02-14T00:00:00,Welwyn Hatfield:United Kingdom,STN,20.0,2027-02-14T12:15:00,2027-02-17T06:55:00,328.0,328.0
+"Edinburgh 1.5k, 5k,10k & Half Marathon MoRun",Half marathon,13.9,eur,2026-11-28T00:00:00,Edinburgh:United Kingdom,EDI,20.0,2026-11-27T06:15:00,2026-11-29T08:10:00,329.14,329.14
+Espoo Rantamaraton,Marathon,24.0,eur,2026-09-18T21:00:00,Espoo:Finland,HEL,20.0,2026-09-18T18:55:00,2026-09-20T10:10:00,331.08,331.08
+Stockholm trail,Half marathon,,,2026-08-21T23:00:00,Stockholm:Sweden,ARN,0.0,2026-08-20T22:45:00,2026-08-22T23:10:00,333.97,333.97
+Regent’s Park 10K,0.70km,8.11,eur,2026-11-08T00:00:00,"The Broad Walk, Regents Park, London, NW1 4NP:United Kingdom",STN,20.0,2026-11-08T16:50:00,2026-11-11T06:55:00,341.36,341.36
+Coventry 10K,10 km,18.54,eur,2026-11-15T00:00:00,Coventry:United Kingdom,BHX,20.0,2026-11-14T06:25:00,2026-11-16T06:30:00,345.0,345.0
+Broadway Marathon & Half,Marathon,,,2026-11-15T00:00:00,"Broadway, Worcestershire:United Kingdom",BHX,0.0,2026-11-14T06:25:00,2026-11-16T06:30:00,345.0,345.0
+Cursa de l’Alba,22km,25.0,eur,2026-11-06T23:00:00,Collbató:Spain,BCN,20.0,2026-11-05T17:10:00,2026-11-08T10:00:00,349.57,349.57
+ATW Remembrance Runs,Half marathon,16.22,eur,2026-11-07T00:00:00,Uttlesford:United Kingdom,STN,20.0,2026-11-07T14:50:00,2026-11-08T14:10:00,353.0,353.0
+CZ Tilburg Ten Miles,Half marathon,,,2026-09-26T23:00:00,Tilburg:Netherlands,EIN,0.0,2026-09-24T10:55:00,2026-09-28T19:25:00,355.66,355.66
+Bologna Marathon in Trail,Ultra marathon,30.0,eur,2026-09-19T22:00:00,Emilia-Romagna:Italy,BLQ,20.0,2026-09-17T13:35:00,2026-09-22T20:00:00,357.56,357.56
+RUNmarö Halvmarathon,Half marathon,,,2026-07-18T23:00:00,Stockholm:Sweden,ARN,0.0,2026-07-16T22:50:00,2026-07-21T22:50:00,361.22,361.22
+"Bristol 1.5k, 5k & 10k MoRun",21.10km,13.9,eur,2026-11-15T00:00:00,Bristol:United Kingdom,BRS,20.0,2026-11-14T06:00:00,2026-11-16T17:15:00,361.28999999999996,361.28999999999996
+Eindhoven Urban Trail,10 km,,,2026-11-28T23:00:00,Eindhoven:Netherlands,EIN,0.0,2026-11-27T17:05:00,2026-11-29T15:15:00,366.86,366.86
+St David’s Day Run,21.10km,28.97,eur,2027-03-06T00:00:00,Cardiff:United Kingdom,BRS,20.0,2027-03-06T06:00:00,2027-03-08T17:15:00,374.0,374.0
+Sant Cugat Half Marathon,Half marathon,,,2027-01-30T23:00:00,Sant Cugat del Vallès:Spain,BCN,0.0,2027-01-30T15:30:00,2027-01-31T10:00:00,375.57,375.57
+"Manchester 1.5k, 5k,10k & Half Marathon MoRun",Half marathon,13.9,eur,2026-11-22T00:00:00,Manchester:United Kingdom,MAN,20.0,2026-11-22T08:15:00,2026-11-25T17:30:00,379.0,379.0
+"Birmingham 1.5k, 5k,10k & Half Marathon MoRun",Half marathon,13.9,eur,2026-11-08T00:00:00,Sutton Coldfield:United Kingdom,BHX,20.0,2026-11-07T06:25:00,2026-11-09T06:30:00,407.22,407.22
+Slawit Snowstorm Shuffle,10 km,18.54,eur,2027-01-30T00:00:00,Kirklees:United Kingdom,MAN,20.0,2027-01-29T19:20:00,2027-01-31T10:15:00,408.0,408.0
+The Half & Half 10K,10 km,23.17,eur,2027-01-24T00:00:00,Calderdale:United Kingdom,MAN,20.0,2027-01-24T08:15:00,2027-01-27T17:30:00,408.0,408.0
+Canal Pro,1.50km,15.0,eur,2026-10-09T22:00:00,Castelldefels:Spain,BCN,20.0,2026-10-08T16:45:00,2026-10-11T21:50:00,410.41,410.41
+Chasewater Christmas Pudding Dash,5 km,25.49,eur,2026-12-06T00:00:00,Lichfield:United Kingdom,BHX,20.0,2026-12-05T06:25:00,2026-12-07T06:30:00,434.0,434.0
+Dartford Half Marathon,Half marathon,,,2027-02-21T00:00:00,Central Park Arena:United Kingdom,STN,0.0,2027-02-19T18:30:00,2027-02-23T09:25:00,439.0,439.0
+5K Sundowner Series - 2,5 km,13.9,eur,2026-08-25T23:00:00,Edinburgh:United Kingdom,EDI,20.0,2026-08-24T23:05:00,2026-08-27T06:50:00,440.93,440.93
+The Montane Winter Spine Challenger,Ultra marathon,,,2027-01-10T00:00:00,Edale:United Kingdom,MAN,0.0,2027-01-10T08:15:00,2027-01-13T17:30:00,442.0,442.0
+Run Kilkee Half Marathon and 10K,Half marathon,,,2026-07-25T00:00:00,Kilkee:Ireland,SNN,0.0,2026-07-24T05:55:00,2026-07-27T08:50:00,444.66,444.66
+Going Round In Circles,25.74km,27.81,eur,2027-03-21T00:00:00,London:United Kingdom,STN,20.0,2027-03-20T14:50:00,2027-03-22T18:25:00,464.0,464.0
+ATW Run Fest at Lee Valley,21.10km,30.12,eur,2027-03-21T00:00:00,Cheshunt:United Kingdom,STN,0.0,2027-03-20T14:50:00,2027-03-22T18:25:00,464.0,464.0
+The Drop - Glasgow,24.14km,55.62,eur,2026-08-15T23:00:00,Glasgow:United Kingdom,GLA,20.0,2026-08-14T10:55:00,2026-08-16T08:45:00,471.07,471.07
+MBNA Chester 10K,10 km,51.66,eur,2027-03-14T00:00:00,Chester:United Kingdom,MAN,20.0,2027-03-14T08:15:00,2027-03-17T17:30:00,476.0,476.0
+Metropolitan Sky Run - Barcelona,0.30km,23.0,eur,2026-10-02T22:00:00,Barcelona:Spain,BCN,20.0,2026-10-02T06:20:00,2026-10-05T09:45:00,479.95000000000005,479.95000000000005
+The One in the Park - Regent's Park Autumn 10K,10 km,30.12,eur,2026-09-05T23:00:00,London:United Kingdom,STN,20.0,2026-09-05T06:55:00,2026-09-06T08:20:00,488.89,488.89
+Medio Maratón de Granollers,Half marathon,,,2027-01-23T23:00:00,Granollers:Spain,BCN,0.0,2027-01-23T15:30:00,2027-01-24T10:00:00,494.0,494.0
+William Wallace Running Festival,Ultra marathon,13.9,eur,2026-10-09T23:00:00,Stirling:United Kingdom,GLA,20.0,2026-10-09T10:55:00,2026-10-11T08:45:00,494.07,494.07
+Pomorie Run,10.25km,20.0,eur,2026-09-25T21:00:00,Pomorie:Bulgaria,BOJ,20.0,2026-09-25T12:25:00,2026-09-28T17:00:00,500.99,500.99
+Spartathlon ,Ultra marathon,,,2026-09-25T22:00:00,Athens:Greece,ATH,0.0,2026-09-24T17:55:00,2026-09-28T10:00:00,501.85,501.85
+ATW Stevenage Winter Half Marathon & 10K,Half marathon,30.12,eur,2026-12-13T00:00:00,Stevenage:United Kingdom,STN,20.0,2026-12-12T10:10:00,2026-12-14T18:30:00,502.0,502.0
+5K Sundowner Series - 3,5 km,13.9,eur,2026-09-08T23:00:00,Edinburgh:United Kingdom,EDI,20.0,2026-09-07T23:05:00,2026-09-10T06:50:00,519.4000000000001,519.4000000000001
+The One in the Park - Regent's Park Summer 10K,10 km,30.12,eur,2026-08-01T23:00:00,London:United Kingdom,STN,20.0,2026-08-01T20:00:00,2026-08-04T07:00:00,529.73,529.73
+The Joust 12hr & 24hr,100km,81.11,eur,2026-09-04T23:00:00,Worcester:United Kingdom,BHX,20.0,2026-09-04T18:00:00,2026-09-05T11:45:00,530.9100000000001,530.9100000000001
+La Maleïda Swimrun,8.57km,,,2026-09-11T22:00:00,Cala de Sant Vicenç:Spain,PMI,0.0,2026-09-09T09:15:00,2026-09-13T06:15:00,539.56,539.56
+Northstowe Festival of Running,Half marathon,16.22,eur,2026-08-28T23:00:00,Cambridge:United Kingdom,STN,20.0,2026-08-26T06:30:00,2026-08-29T21:50:00,568.0,568.0
+"ATW Mallory Race Circuit Winter Runs - Half Marathon, 10k, 5k and Fun Run",10 km,30.12,eur,2027-01-17T00:00:00,Peckleton:United Kingdom,BHX,20.0,2027-01-16T06:25:00,2027-01-18T06:30:00,578.0,578.0
+Breaking The Laws 30K Run - Honouring the Scottish Commandos,30km,11.59,eur,2026-09-12T23:00:00,North Berwick:United Kingdom,EDI,20.0,2026-09-10T10:50:00,2026-09-13T07:25:00,583.9300000000001,583.9300000000001
+ATW St Albans Summer 10K,10 km,38.24,eur,2026-07-18T23:00:00,St Albans:United Kingdom,STN,20.0,2026-07-16T06:30:00,2026-07-21T19:00:00,613.94,613.94
+Venice Lido Beach Trail,11km,24.0,eur,2026-09-19T22:00:00,Venice:Italy,TSF,20.0,2026-09-17T08:15:00,2026-09-21T08:45:00,620.06,620.06
+William Wallace Running Festival,Ultra marathon,13.9,eur,2026-10-09T23:00:00,Stirling:United Kingdom,EDI,20.0,2026-10-08T10:50:00,2026-10-12T19:05:00,638.64,638.64
+Polygyros Run Halkidiki,Half marathon,10.0,eur,2026-08-28T21:00:00,Poligiros:Greece,SKG,20.0,2026-08-27T06:40:00,2026-08-29T10:00:00,643.25,643.25
+Standard Chartered Great City Race,5 km,,,2026-07-21T00:00:00,Londres:United Kingdom,STN,0.0,2026-07-21T17:10:00,2026-07-22T08:20:00,667.36,667.36
+Summer Time Marbella,5 km,20.0,eur,2026-07-25T22:00:00,Marbella:Spain,AGP,20.0,2026-07-25T10:45:00,2026-07-28T13:05:00,694.25,694.25
+The Ultra Loop - March,Ultra marathon,41.71,eur,2027-03-21T00:00:00,Manchester:United Kingdom,MAN,20.0,2027-03-21T08:15:00,2027-03-24T17:30:00,714.0,714.0
+Watersons Hale 10K & Ashley Hall 3K,10 km,13.9,eur,2027-02-14T00:00:00,Altrincham:United Kingdom,MAN,20.0,2027-02-14T08:15:00,2027-02-17T17:30:00,722.0,722.0
+The Huddersfield Hurtle,21.10km,17.38,eur,2027-02-13T00:00:00,Kirklees:United Kingdom,MAN,20.0,2027-02-12T19:20:00,2027-02-14T10:15:00,722.0,722.0
+Cursa dels Nassos 10 km,10 km,20.5,eur,2026-12-30T23:00:00,Barcelona:Spain,BCN,20.0,2026-12-28T16:05:00,2026-12-31T20:50:00,731.0,731.0
+Run the Blades - Breaking Strain Events,Ultra marathon,,,2026-07-18T00:00:00,Eaglesham:United Kingdom,GLA,0.0,2026-07-17T10:55:00,2026-07-19T08:45:00,836.72,836.72
+Maratona di Salemi,Half marathon,75.0,eur,2026-10-02T22:00:00,Salemi:Italy,PMO,20.0,2026-10-01T15:50:00,2026-10-04T20:15:00,901.0,901.0
+Half Marathon Loures-Odivelas-Loures,Half marathon,5.0,eur,2026-09-19T23:00:00,Loures:Portugal,LIS,20.0,2026-09-19T06:15:00,2026-09-22T18:00:00,955.6,955.6
+Tavira Granfondo,Ultra marathon,38.0,eur,2026-09-26T23:00:00,Faro:Portugal,FAO,20.0,2026-09-24T19:50:00,2026-09-27T14:00:00,1045.55,1045.55
+Challenge Peguera Mallorca Triathlon,Ultra marathon,,,2026-10-16T22:00:00,Peguera:Spain,PMI,0.0,2026-10-14T09:15:00,2026-10-19T20:55:00,1063.95,1063.95
+Marginal à Noite - Esposende,8km,13.5,eur,2026-07-10T23:00:00,Esposende:Portugal,OPO,20.0,2026-07-08T18:20:00,2026-07-12T06:25:00,1118.96,1118.96
+Tenerife Bluetrail,Ultra marathon,,,2027-04-08T00:00:00,Canary Islands:Spain,TFS,0.0,2027-04-06T06:40:00,2027-04-10T18:20:00,1381.0,1381.0
