@@ -137,6 +137,7 @@ def process_trips(events, connections, scraper):
 def main():
     events, connections = load_data()
     carrier = CONFIG['carrier'].value
+    origin = CONFIG['origin'].value
     scraper = SCRAPER_MAP.get(carrier)
 
     df = process_trips(events, connections, scraper)
@@ -151,7 +152,7 @@ def main():
 
     output_dir = '../results'
     os.makedirs(output_dir, exist_ok=True)
-    df.to_csv(f'{output_dir}/{carrier}_{ORIGIN}_trips.csv', index=False)
+    df.to_csv(f'{output_dir}/{carrier}_{origin}_trips.csv', index=False)
     print("Processing complete.")
 
 

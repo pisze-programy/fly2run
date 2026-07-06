@@ -46,11 +46,24 @@ class WizzairScraper:
         try:
             self.session.headers.update(headers)
             response = self.session.post(self.base_url, json=payload, timeout=10)
-            print(f"Status: {response.status_code}, URL: {self.base_url}")
+            if response.status_code == 503:
+                print("\nIP BLOCKED")
+                input("Change IP and press ENTER to resume...")
+
+                self.session = requests.Session()
+                self.session.headers.update({
+                    'User-Agent': self.ua.random,
+                    "Content-Type": "application/json",
+                    "Origin": "https://www.wizzair.com"
+                })
+                self.session.get("https://www.wizzair.com/")
+
+                return self.get_fare_chart(origin, destination, date_str)
+
             response.raise_for_status()
             return response.json()
         except Exception as e:
-            print(f"WizzAir FareChart Error: {e}")
+            print(f"WizzAir FareChart Error: {e} {payload}")
             return None
 
     def find_best_trip(self, event_date_str, origin, dest):
