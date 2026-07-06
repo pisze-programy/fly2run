@@ -31,7 +31,7 @@ class Origin(Enum):
     KTW = 'KTW'
 
 CONFIG = {
-    'carrier': Carrier.RYANAIR,
+    'carrier': Carrier.WIZZAIR,
     'origin': Origin.POZ,
     'MAX_DISTANCE_KM': 50
 }
@@ -114,7 +114,7 @@ def process_trips(events, connections, scraper):
                         'event_distance': event.get('distance'),
                         'event_price': event.get('minPrice'),
                         'event_price_currency': event.get('searchCurrency'),
-                        'event_date': event_date,
+                        'event_date': event_date_str,
                         'event_location': f"{event.get('city')}:{event.get('country')}",
                         'airport': dest_code,
 
