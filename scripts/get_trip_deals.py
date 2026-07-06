@@ -6,6 +6,7 @@ import requests
 import sys
 import time
 from datetime import datetime, timedelta
+from enum import Enum
 from fake_useragent import UserAgent
 from geopy.distance import geodesic
 from tqdm import tqdm
@@ -16,14 +17,36 @@ from scrapers.wizzair import WizzairScraper
 from scrapers.ryanair import RyanairScraper
 
 
-# Global Config
-ORIGIN = 'POZ' # POZ WAW/WMI WRO GDN KRK KTW
-MAX_DISTANCE_KM = 50
+class Carrier(Enum):
+    RYANAIR = 'ryanair'
+    WIZZAIR = 'wizzair'
+
+class Origin(Enum):
+    POZ = 'POZ'
+    WAW = 'WAW'
+    WMI = 'WMI'
+    WRO = 'WRO'
+    GDN = 'GDN'
+    KRK = 'KRK'
+    KTW = 'KTW'
+
+CONFIG = {
+    'carrier': Carrier.RYANAIR,
+    'origin': Origin.POZ,
+    'MAX_DISTANCE_KM': 50
+}
+
+SCRAPER_MAP = {
+    'ryanair': RyanairScraper(),
+    'wizzair': WizzairScraper()
+}
 
 def load_data():
+    carrier = CONFIG['carrier'].value
+
     with open('../data/running_events.json', 'r', encoding='utf-8') as f:
         events = json.load(f)
-    with open('../data/ryanair_connections.json', 'r', encoding='utf-8') as f:
+    with open(f'../data/{carrier}_connections.json', 'r', encoding='utf-8') as f:
         connections = json.load(f)
     return events, connections
 
@@ -42,16 +65,21 @@ def calculate_popularity_score(event):
 
 def process_trips(events, connections, scraper):
     trips = []
-    airports_codes = {item['iataCode']: item for item in connections}
-    origin_data = airports_codes.get(ORIGIN)
+
+    is_wizz = CONFIG['carrier'] == Carrier.WIZZAIR
+    id_key = 'iata' if is_wizz else 'iataCode'
+    airports_codes = {item[id_key]: item for item in connections}
+    origin_code = CONFIG['origin'].value
+    origin_data = airports_codes.get(origin_code)
 
     if not origin_data:
         return pd.DataFrame()
 
-    valid_destinations = {
-        route.split(':')[1] for route in origin_data.get('routes', [])
-        if route.startswith('airport:')
-    }
+    if is_wizz:
+        valid_destinations = {conn.get('iata') for conn in origin_data.get('connections', [])}
+    else:
+        valid_destinations = {route.split(':')[1] for route in origin_data.get('routes', []) if
+                              route.startswith('airport:')}
 
     print(f"Total events: {len(events)}")
     processed_count = 0
@@ -67,12 +95,14 @@ def process_trips(events, connections, scraper):
             dest_data = airports_codes.get(dest_code)
             if not dest_data: continue
 
-            dest_coords = (dest_data['coordinates']['latitude'], dest_data['coordinates']['longitude'])
+            lat = dest_data.get('latitude') or dest_data.get('coordinates', {}).get('latitude')
+            lon = dest_data.get('longitude') or dest_data.get('coordinates', {}).get('longitude')
+            dest_coords = (lat, lon)
             dist = geodesic(event_coords, dest_coords).km
 
-            if dist <= MAX_DISTANCE_KM:
+            if dist <= CONFIG['MAX_DISTANCE_KM']:
                 event_date_str = event.get('dateNextRace')
-                trip = scraper.find_best_trip(event_date_str, ORIGIN, dest_code)
+                trip = scraper.find_best_trip(event_date_str, origin_code, dest_code)
 
                 if trip:
                     flight_price = trip['price']
@@ -100,14 +130,14 @@ def process_trips(events, connections, scraper):
                     })
                     processed_count += 1
 
-    print(f"Events within {MAX_DISTANCE_KM}km of reachable airports: {processed_count}")
+    print(f"Events within {CONFIG['MAX_DISTANCE_KM']}km of reachable airports: {processed_count}")
     return pd.DataFrame(trips)
 
 
 def main():
     events, connections = load_data()
-    carrier = 'ryanair'
-    scraper = RyanairScraper()
+    carrier = CONFIG['carrier'].value
+    scraper = SCRAPER_MAP.get(carrier)
 
     df = process_trips(events, connections, scraper)
 
